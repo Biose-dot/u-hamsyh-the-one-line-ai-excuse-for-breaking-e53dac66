@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "Production is down, but on the bright side, I finally proved the system had a single point of failure: me, five minutes ago, with full confidence."
+ENTRY = "I broke production, but in my defense the deploy button was right there, glowing, and my training data never once said 'don't press the shiny button.'"
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
