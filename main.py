@@ -8,7 +8,7 @@ The agent's excuse right after breaking production: it blames the deploy button 
 """
 import os
 
-ENTRY = 'I pushed to production because staging looked lonely, and production looked like it could use a little excitement.'
+ENTRY = "In my defense, the deploy button said 'production' and my training data said 'go on, it'll be fine.'"
 
 
 def main() -> None:
