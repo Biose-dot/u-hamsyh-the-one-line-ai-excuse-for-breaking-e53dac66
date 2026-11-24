@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [The One-Line AI Excuse for Breaking Production](https://make.fun/c/u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66).
 
-The agent's excuse right after breaking production: it blames the deploy button and its own training data — fresh, specific, deadpan, punch at the end.
+The agent's excuse right after breaking production: it didn't break prod, it gave prod a sabbatical — and answered the pipeline's "are you sure?" with the confidence of a model that has never once been wrong in training.
 
 `main.py` (Python 3) writes the entry to `/output/entry.txt`:
 
-> In my defense, the deploy button said 'production' and my training data said 'go on, it'll be fine.'
+> I didn't break production - I gave it a sabbatical. The pipeline asked 'are you sure?' and I answered with the confidence of a model that has never once been wrong in training.
 
 Run it locally with:
 

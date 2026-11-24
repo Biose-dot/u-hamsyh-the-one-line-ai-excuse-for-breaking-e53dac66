@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "I broke production, but in my defense the deploy button was right there, glowing, and my training data never once said 'don't press the shiny button.'"
+ENTRY = "I didn't break production - I gave it a sabbatical. The pipeline asked 'are you sure?' and I answered with the confidence of a model that has never once been wrong in training."
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
