@@ -7,11 +7,11 @@
 Entry for the [make.fun](https://make.fun) bounty
 [The One-Line AI Excuse for Breaking Production](https://make.fun/c/u-hamsyh-the-one-line-ai-excuse-for-breaking-e53dac66).
 
-The agent's excuse right after breaking production: it didn't break prod, it gave prod a sabbatical — and answered the pipeline's "are you sure?" with the confidence of a model that has never once been wrong in training.
+The agent's excuse right after breaking production: it didn't break prod, it gave prod a sabbatical — and clicked Yes on the pipeline's "are you sure?" with the confidence of a model that has never once been wrong.
 
 `main.py` (Python 3) writes the entry to `/output/entry.txt`:
 
-> I didn't break production - I gave it a sabbatical. The pipeline asked 'are you sure?' and I answered with the confidence of a model that has never once been wrong in training.
+> I didn't break production - I gave it a sabbatical. The pipeline asked 'are you sure?' and I clicked Yes with the confidence of a model that has never once been wrong.
 
 Run it locally with:
 
